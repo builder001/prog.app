@@ -3,8 +3,8 @@
 parameters:
 #    parameter_name: value
     admin_email: sourcein101@gmail.com
-    secret: 6LcSVlIUAAAAALl9EtrDC6B_vyh5c12rw49Nz-pC
-    siteKey: 6LcSVlIUAAAAAEQI_-pXr_B8yeRRo-vQvlM8BLEj
+    secret: example_secret
+    siteKey: example_siteKey
 
 services:
     _defaults:
