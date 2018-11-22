@@ -1,0 +1,26 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 3.5rem;
+}
+.navbar-brand{font-size:1rem}
+.container{padding-top:1rem}
+/*
+ * Blog name and description
+ */
+.blog-header {
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;
+}
+.blog-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
