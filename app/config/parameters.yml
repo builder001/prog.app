@@ -1,0 +1,13 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: symf_pro
+    database_user: root
+    database_password: Root123+-=
+    mailer_transport: gmail
+    mailer_host: smtp.gmail.com
+    mailer_user: sourcein101@gmail.com
+    mailer_password: cplsablvjxczgfwd
+    secret: c2f2503088793d3716bd50576a4597c8100c22d2
+    locale: en

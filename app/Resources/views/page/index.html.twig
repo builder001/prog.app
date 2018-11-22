@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home page{% endblock %}
+
+{% block main %}
+            <div class="jumbotron">
+                <div class="container">
+                    <h2>{{ 'homepage_org_header'|trans }}</h2>
+                    <p class="text-muted">{{ 'homepage_org_text'|trans }}</p>
+                    <p>
+                        <a href="{{ path('activities') }}" class="btn btn-primary">{{ 'homepage_org_btn'|trans }}</a>
+                    </p>
+                </div>
+            </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+            <div class="col-md-4">
+                <img class="rounded" src="{{ asset('images/voshod.jpg') }}" alt="Card image cap">
+                    <h4>{{ 'row.ideas'|trans }}</h4>
+                    <p>{{ 'row.ideas_brief'|trans }}</p>
+                    <p><a href="{{ path('ideas') }}" class="btn btn-info">{{ 'row.path'|trans }}</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="rounded" src="{{ asset('images/technics.jpg') }}" alt="Card image cap">
+                    <h4>{{ 'row.strategies'|trans }}</h4>
+                    <p>{{ 'row.strategies_brief'|trans }}</p>
+                    <p><a href="{{ path('strategies') }}" class="btn btn-info">{{ 'row.path'|trans }}</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="rounded" src="{{ asset('images/zdravo.jpg') }}" alt="Card image cap">
+                    <h4>{{ 'row.news'|trans }}</h4>
+                    <p>{{ 'row.news_brief'|trans }}</p>
+                    <p><a href="{{ path('news') }}" class="btn btn-info">{{ 'row.path'|trans }}</a></p>
+            </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+    admin_email: sourcein101@gmail.com
+    secret: 6LcSVlIUAAAAALl9EtrDC6B_vyh5c12rw49Nz-pC
+    siteKey: 6LcSVlIUAAAAAEQI_-pXr_B8yeRRo-vQvlM8BLEj
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+    AppBundle\:
+        resource: '../../src/AppBundle/*'
+        #exclude: '../../src/AppBundle/{Entity,Repository}'
+    AppBundle\Controller\:
+        resource: '../../src/AppBundle/Controller'
+        tags: ['controller.service_arguments']
+    #markdown:
+      #class: AppBundle\Utils\Markdown
+    AppBundle\Utils\Markdown:
+    # These are the Twig extensions that create new filters and functions for
+    # using them in the templates
+    AppBundle\Twig\AppExtension:
+        arguments: ['@AppBundle\Utils\Markdown', '%app_locales%']
+        tags:
+            - { name: twig.extension }
+
+    Twig_Extensions_Extension_Intl:
+        class:  Twig_Extensions_Extension_Intl
+        tags:
+            - { name: twig.extension }
+
+    AppBundle\EventListener\RedirectToPreferredLocaleListener:
+        arguments: ['@router', '%app_locales%', '%locale%']
+        tags:
+           - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }

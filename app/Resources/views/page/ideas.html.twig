@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ideas{% endblock %}
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'ideas_header'|trans }}</h1>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <p>
+        {{ 'row.ideas_full'|trans }}
+    </p>
+{% endblock %}

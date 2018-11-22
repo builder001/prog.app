@@ -1,0 +1,66 @@
+{# @controller AppBundle:Contact:contact #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Contacts{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm">
+            {% for type, messages in app.flashes %}
+                {% for message in messages %}
+                    {% if type == 'error' %}
+                    <div class="alert alert-danger">
+                        {{ message }}
+                    </div>
+                    {% elseif type == 'notice' %}
+                    <div class="alert alert-info">
+                        {{ message }}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {{ form_start(form) }}
+            <fieldset>
+                <legend>{{ 'contact.legend'|trans }}</legend>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        {{ form_widget(form.subject) }}
+                        {{ form_errors(form.subject) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        {{ form_widget(form.name) }}
+                        {{ form_errors(form.name) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        {{ form_widget(form.email) }}
+                        {{ form_errors(form.email) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        {{ form_widget(form.message) }}
+                        {{ form_errors(form.message) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-6">
+                        <div class="g-recaptcha" data-sitekey="{{ siteKey }}"></div>
+                    </div>
+                </div>
+                {# Render CSRF token etc .#}
+                <div>
+                    {{ form_rest(form) }}
+                </div>
+                <button class="btn btn-default" type="reset">{{ 'contact_cancel'|trans }}</button>
+                <button class="btn btn-primary" type="submit" formnovalidate>{{ 'contact_submit'|trans }}</button>
+            </fieldset>
+
+            {{ form_end(form) }}
+        </div>
+    </div>
+
+{% endblock %}

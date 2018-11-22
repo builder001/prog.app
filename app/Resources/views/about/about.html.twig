@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}About us{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'about_header'|trans }}</h1>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <p>
+        {{ 'row.about'|trans }}
+    </p>
+    <hr>
+    <div>
+        <h5>{{ 'contact.info'|trans }}</h5>
+        <p>
+            <strong>{{ 'contact.info_office'|trans }}</strong><br>
+            {{ 'contact.info_city'|trans }}<br>
+            {{ 'contact.info_street'|trans }}
+        </p>
+    </div>
+    <p>&nbsp;</p>
+    <h5><strong>{{ 'about.head'|trans }}</strong></h5>
+    <div class="row">
+        <div class="col-sm">
+            <p>{{ 'about.head_short1'|trans }}</p>
+            <address>
+                <strong>{{ 'about.boardM'|trans }}</strong><br>
+                {{ 'about.boardMI'|trans }}
+            </address>
+            <address>
+                <strong>{{ 'about.authorizedR'|trans }}</strong><br>
+                {{ 'about.authorizedRI'|trans }}
+            </address>
+        </div>
+        <div class="col-sm">
+            <p>{{ 'about.head_short2'|trans }}</p>
+            <address>
+                <strong>{{ 'about.contactP'|trans }}</strong><br>
+                {{ 'about.contactPS'|trans }}<br>
+                <a href="mailto:#">qwertysv1@ukr.net</a>
+            </address>
+        </div>
+    </div>
+{% endblock %}

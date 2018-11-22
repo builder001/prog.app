@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Partners{% endblock %}
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'partner_header'|trans }}</h1>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    {% for partner in partners %}
+        {% if not partner.slug %}<p>{{ partner.content }}</p>
+            {% elseif partner.slug %} <p><a href="{{ partner.slug }}" target="_blank">{{ partner.content }}</a></p>
+        {% endif %}
+    {% else %}<div>{{ 'partner.requested_info_not_found' }}</div>
+    {% endfor %}
+{% endblock %}

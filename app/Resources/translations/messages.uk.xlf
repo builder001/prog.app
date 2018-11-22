@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="uk" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="menu.homepage_title">
+                <source>menu.homepage_title</source>
+                <target>Громадська організація ©"Прогресія"</target>
+            </trans-unit>
+            <trans-unit id="homepage_jumbotron">
+                <source>homepage_jumbotron</source>
+                <target>Шановні колеги!</target>
+            </trans-unit>
+            <trans-unit id="homepage_jumbotron_full">
+                <source>homepage_jumbotron_full</source>
+                <target>
+                    Наша організація висловлює найкращі побажання Вам в подяку за співпрацю в минулому році!
+                    Нехай це Різдво буде благодатним, а Новий Рік принесе процвітання!
+                    Нехай ця зима відкриє Вам двері до нових можливостей і вкаже шлях до успіху!
+                    Бажаємо Вам миру, здоров‘я та любові у Новому Році!
+                    З Різдвом Христовим і Новим Роком!!!
+                </target>
+            </trans-unit>
+            <trans-unit id="homepage_org_header">
+                <source>homepage_org_header</source>
+                <target>Громадська організація "Прогресія - технології людині"</target>
+            </trans-unit>
+            <trans-unit id="homepage_org_text">
+                <source>homepage_org_text</source>
+                <target>
+                    Напрямками діяльності громадської організації "Прогресія" є організація та проведення теоретичних та науково-практичних конференцій, круглих столів.
+                    Ми сприяємо створенню сучасної нормативно-правової бази, займаємося її підтримкою та інформаційно-аналітичним забезпеченням.
+                </target>
+            </trans-unit>
+            <trans-unit id="homepage_org_btn">
+                <source>homepage_org_btn</source>
+                <target>Більше інформації</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_about">
+                <source>menu.homepage_about</source>
+                <target>Про нас</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_activity">
+                <source>menu.homepage_activity</source>
+                <target>Діяльність</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_publish">
+                <source>menu.homepage_publish</source>
+                <target>Публікації</target>
+            </trans-unit>
+            <trans-unit id="publish_header">
+                <source>publish_header</source>
+                <target>Публікації</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_partner">
+                <source>menu.homepage_partner</source>
+                <target>Партнери</target>
+            </trans-unit>
+            <trans-unit id="partner_header">
+                <source>partner_header</source>
+                <target>Наші партнери</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_contact">
+                <source>menu.homepage_contact</source>
+                <target>Контакти</target>
+            </trans-unit>
+            <trans-unit id="menu.toggle_nav">
+                <source>menu.toggle_nav</source>
+                <target>Переключити навігацію</target>
+            </trans-unit>
+            <trans-unit id="menu.choose_language">
+                <source>menu.choose_language</source>
+                <target>Вибрати мову</target>
+            </trans-unit>
+            <trans-unit id="row.ideas">
+                <source>row.ideas</source>
+                <target>Ідеї</target>
+            </trans-unit>
+            <trans-unit id="row.ideas_brief">
+                <source>row.ideas_brief</source>
+                <target>Одна з наших ідей-це сприяння розвитку міжнародного співробітництва України і в тому числі місцевого співтовариства, структур, юридичних і фізичних осіб.</target>
+            </trans-unit>
+            <trans-unit id="ideas_header">
+                <source>ideas_header</source>
+                <target>Наші ідеї</target>
+            </trans-unit>
+            <trans-unit id="row.ideas_full">
+                <source>row.ideas_full</source>
+                <target>Наші основні ідеї полягають у сприянні вдосконаленню Української та міжнародної сертифікаційної нормативно-правової бази, сприянню інвестиціям в Українську та місцеву економіку. Також ми ініціюємо, сприяємо відкриттю, розвитку, фінансуванню, просуванню заохочувальних та інших програм (проектів) і коштів, стипендій, преміальних фондів, грантів у сферах Європейського та міжнародного співробітництва (у тому числі благодійного).</target>
+            </trans-unit>
+            <trans-unit id="row.path">
+                <source>row.path</source>
+                <target>Детальніше</target>
+            </trans-unit>
+            <trans-unit id="row.strategies">
+                <source>row.strategies</source>
+                <target>Стратегії</target>
+            </trans-unit>
+            <trans-unit id="row.strategies_brief">
+                <source>row.strategies_brief</source>
+                <target>Організація "Прогресія" у своїх діях керується відповідними чинними законодавчими актами України та своїм статутом.</target>
+            </trans-unit>
+            <trans-unit id="strategies_header">
+                <source>strategies_header</source>
+                <target>Наші стратегії</target>
+            </trans-unit>
+            <trans-unit id="row.strategies_full">
+                <source>row.strategies_full</source>
+                <target>Всю свою діяльність ми будуємо таким чином, що керуємося Конституцією України, законами України "Про Громадські об'єднання", іншими актами чинного законодавства і своїм статутом.Наш статут у першу чергу декларує добровільність, рівноправність його членів, самоврядування, законність і гласність.</target>
+            </trans-unit>
+            <trans-unit id="row.news">
+                <source>row.news</source>
+                <target>Новини</target>
+            </trans-unit>
+            <trans-unit id="row.news_brief">
+                <source>row.news_brief</source>
+                <target>Останні новини</target>
+            </trans-unit>
+            <trans-unit id="news_header">
+                <source>news_header</source>
+                <target>Новини Прогрессії</target>
+            </trans-unit>
+            <trans-unit id="news_text_small">
+                <source>news_text_small</source>
+                <target>Останні новини</target>
+            </trans-unit>
+            <trans-unit id="news.show_text_small">
+                <source>news.show_text_small</source>
+                <target>Новини в деталях</target>
+            </trans-unit>
+            <trans-unit id="row.about">
+                <source>row.about</source>
+                <target>Наша організація займається суспільно-корисною, науково-дослідною, інноваційною та благодійною діяльністю, спрямованою на сприяння та розвиток співробітництва України та міської громадськості з європейськими та іншими міжнародними юридичними та фізичними особами, громадськими організаціями в сферах охорони здоров'я людей і тварин, охорони праці, захисту навколишнього середовища, сільського господарства, інфокомунікацій.</target>
+            </trans-unit>
+            <trans-unit id="about_header">
+                <source>about_header</source>
+                <target>Контактна інформація організації</target>
+            </trans-unit>
+            <trans-unit id="activity_header">
+                <source>activity_header</source>
+                <target>Цілі та заходи</target>
+            </trans-unit>
+            <trans-unit id="contact_form.flash_message">
+                <source>contact_form.flash_message</source>
+                <target>Ваш контактний запит був успішно надісланий. Дякую!</target>
+            </trans-unit>
+            <trans-unit id="contact_form.captcha_flash_message">
+                <source>contact_form.captcha_flash_message</source>
+                <target>Підтвердіть, що ви не робот, поставивши галочку у відповідному чекбоксі!</target>
+            </trans-unit>
+            <trans-unit id="contact_form.name">
+                <source>contact_form.name</source>
+                <target>Ваше ім'я</target>
+            </trans-unit>
+            <trans-unit id="contact_form.subject">
+                <source>contact_form.subject</source>
+                <target>Тема</target>
+            </trans-unit>
+            <trans-unit id="contact_form.email">
+                <source>contact_form.email</source>
+                <target>Ваша електронна адреса</target>
+            </trans-unit>
+            <trans-unit id="contact_form.message">
+                <source>contact_form.message</source>
+                <target>Ваше повідомлення</target>
+            </trans-unit>
+            <trans-unit id="contact_submit">
+                <source>contact_submit</source>
+                <target>Відправити</target>
+            </trans-unit>
+            <trans-unit id="contact_cancel">
+                <source>contact_cancel</source>
+                <target>Скасувати</target>
+            </trans-unit>
+            <trans-unit id="contact.legend">
+                <source>contact.legend</source>
+                <target>Скористайтеся формою нижче, щоб зв'язатися з нами</target>
+            </trans-unit>
+            <trans-unit id="contact.info">
+                <source>contact.info</source>
+                <target>ІНФОРМАЦІЯ ПРО ОФІСИ ТА ПРЕДСТАВНИЦТВА</target>
+            </trans-unit>
+            <trans-unit id="contact.info_office">
+                <source>contact.info_office</source>
+                <target>Головний офіс</target>
+            </trans-unit>
+            <trans-unit id="contact.info_city">
+                <source>contact.info_city</source>
+                <target>61093, м. Харків,</target>
+            </trans-unit>
+            <trans-unit id="contact.info_street">
+                <source>contact.info_street</source>
+                <target>вул.Рилєєва, б. 60</target>
+            </trans-unit>
+            <trans-unit id="about.head">
+                <source>about.head</source>
+                <target>ВИЩЕ КЕРІВНИЦТВО / КОНТАКТИ</target>
+            </trans-unit>
+            <trans-unit id="about.boardM">
+                <source>about.boardM</source>
+                <target>Ігор Терещенко</target>
+            </trans-unit>
+            <trans-unit id="about.boardMI">
+                <source>about.boardMI</source>
+                <target>Член правління</target>
+            </trans-unit>
+            <trans-unit id="about.authorizedR">
+                <source>about.authorizedR</source>
+                <target>Ігор Речкіман</target>
+            </trans-unit>
+            <trans-unit id="about.authorizedRI">
+                <source>about.authorizedRI</source>
+                <target>Уповноважений представник організації в ЄС</target>
+            </trans-unit>
+            <trans-unit id="about.contactP">
+                <source>about.contactP</source>
+                <target>Світлана Санжеревська</target>
+            </trans-unit>
+            <trans-unit id="about.contactPS">
+                <source>about.contactPS</source>
+                <target>Контактна персона</target>
+            </trans-unit>
+            <trans-unit id="about.head_short1">
+                <source>about.head_short1</source>
+                <target>ВИЩЕ КЕРІВНИЦТВО</target>
+            </trans-unit>
+            <trans-unit id="about.head_short2">
+                <source>about.head_short2</source>
+                <target>КОНТАКТИ</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

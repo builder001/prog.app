@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="uk" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="contact_form.name_error">
+                <source>contact_form.name_error</source>
+                <target>Будь ласка, впишіть Ваше ім'я</target>
+            </trans-unit>
+            <trans-unit id="contact_form.subject_error">
+                <source>contact_form.subject_error</source>
+                <target>Будь-ласка, надайте тему Вашого звертання</target>
+            </trans-unit>
+            <trans-unit id="contact_form.email_error">
+                <source>contact_form.email_error</source>
+                <target>Будь ласка, введіть адресу поштової скриньки</target>
+            </trans-unit>
+            <trans-unit id="contact_form.email_val.error">
+                <source>contact_form.email_val.error</source>
+                <target>Ваша електронна адреса, здається, недійсна</target>
+            </trans-unit>
+            <trans-unit id="contact_form.message_error">
+                <source>contact_form.message_error</source>
+                <target>Будь ласка, надайте повідомлення тут</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

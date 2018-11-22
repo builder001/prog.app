@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Publishing{% endblock %}
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'publish_header'|trans }}</h1>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    {% for publish in publishing %}
+        {% if not publish.slug %}<p>{{ publish.content }}</p>
+            {% elseif publish.slug %}
+            <p><a href="{{ publish.slug }}" target="_blank">{{ publish.content }}</a></p>
+        {% endif %}
+    {% else %}<div>{{ 'no_publishings_found' }}</div>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}News{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'news_header'|trans }}</h1>
+            <p class="lead blog-description">{{ 'news_text_small'|trans }}</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="row mb-3">
+        <div class="col-md">
+            {% for post in posts %}
+                <div class="list-group mb-1">
+                    <a class="list-group-item list-group-item-action list-group-item-light" href="{{ path('news_post',{slug:post.slug}) }}">{{ post.title }}</a>
+                </div>
+            {% else %}<div class="well">{{ 'post.no_posts_found' }}</div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="pagination justify-content-center">
+                <nav aria-label="page navigation">
+                    {{ pagerfanta(posts,'twitter_bootstrap4',{routeName: 'news_paginated'}) }}
+                </nav>
+            </div>
+        </div>
+    </div>
+{% endblock %}

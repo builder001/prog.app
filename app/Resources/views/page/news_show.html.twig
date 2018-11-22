@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}News reading{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <p class="lead blog-description">{{ 'news.show_text_small'|trans }}</p>
+        </div>
+    </div>
+    {% endblock %}
+{% block container %}
+    {{ parent() }}
+                <li class="nav-item"><a class="nav-link" href="{{ path('news') }}">{{ 'row.news'|trans }}</a> </li>
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm">
+            <h3>{{ post.title }}</h3>
+            <p>
+                {{ post.content }}
+            </p>
+        </div>
+    </div>
+{% endblock %}

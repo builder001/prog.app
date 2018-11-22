@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="menu.homepage_title">
+               <source>menu.homepage_title</source>
+               <target>Public organization ©"Progression"</target>
+            </trans-unit>
+            <trans-unit id="homepage_jumbotron">
+                <source>homepage_jumbotron</source>
+                <target>Dear colleagues!</target>
+            </trans-unit>
+            <trans-unit id="homepage_jumbotron_full">
+                <source>homepage_jumbotron_full</source>
+                <target>
+                    Our organization express best wishes to you in gratitude for their cooperation in the past year!
+                    May this Christmas be gracious and may the New Year begin on a prosperous note!
+                    May this season of joy open doors to new opportunities and pave new paths of success for you!
+                    We wish you peace, health and love in New Year!
+                    Merry Christmas and Happy New Year!!!
+                </target>
+            </trans-unit>
+            <trans-unit id="homepage_org_header">
+                <source>homepage_org_header</source>
+                <target>
+                    Public organization "Progression - Human Technology"
+                </target>
+            </trans-unit>
+            <trans-unit id="homepage_org_text">
+                <source>homepage_org_text</source>
+                <target>
+                    The main aim of the organization is a public-benefit educational, research, innovation and charitable activities aimed at the promotion and
+                    development of cooperation between Ukraine and the urban community of European and other international corporations and individuals, public
+                    organizations in the fields of human and animal health, safety, environmental protection, agriculture, infocommunication.
+                </target>
+            </trans-unit>
+            <trans-unit id="homepage_org_btn">
+                <source>homepage_org_btn</source>
+                <target>Click for details</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_about">
+                <source>menu.homepage_about</source>
+                <target>About us</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_activity">
+                <source>menu.homepage_activity</source>
+                <target>Activities</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_publish">
+                <source>menu.homepage_publish</source>
+                <target>Publishing</target>
+            </trans-unit>
+            <trans-unit id="publish_header">
+                <source>publish_header</source>
+                <target>Publications</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_partner">
+                <source>menu.homepage_partner</source>
+                <target>Partners</target>
+            </trans-unit>
+            <trans-unit id="partner_header">
+                <source>partner_header</source>
+                <target>Our partners</target>
+            </trans-unit>
+            <trans-unit id="menu.homepage_contact">
+                <source>menu.homepage_contact</source>
+                <target>Contacts</target>
+            </trans-unit>
+            <trans-unit id="menu.toggle_nav">
+               <source>menu.toggle_nav</source>
+               <target>Toggle navigation</target>
+            </trans-unit>
+            <trans-unit id="menu.choose_language">
+                <source>menu.choose_language</source>
+                <target>Choose language</target>
+            </trans-unit>
+            <trans-unit id="row.ideas">
+                <source>row.ideas</source>
+                <target>Ideas</target>
+            </trans-unit>
+            <trans-unit id="row.ideas_brief">
+                <source>row.ideas_brief</source>
+                <target>One of our ideas is to promote international cooperation between Ukraine and including local community bodies, legal entities and individuals.</target>
+            </trans-unit>
+            <trans-unit id="ideas_header">
+                <source>ideas_header</source>
+                <target>Our ideas</target>
+            </trans-unit>
+            <trans-unit id="row.ideas_full">
+                <source>row.ideas_full</source>
+                <target>The main aim of the organization is a public-benefit educational, research, innovation and charitable activities aimed
+                    at the promotion and development of cooperation between Ukraine and the urban community of European and other international
+                    corporations and individuals, public organizations in the fields of human and animal health, safety, environmental protection,
+                    agriculture, infocommunication.
+                </target>
+            </trans-unit>
+            <trans-unit id="row.path">
+                <source>row.path</source>
+                <target>Read more</target>
+            </trans-unit>
+            <trans-unit id="row.strategies">
+                <source>row.strategies</source>
+                <target>Strategies</target>
+            </trans-unit>
+            <trans-unit id="row.strategies_brief">
+                <source>row.strategies_brief</source>
+                <target>Organization "Progression" in their actions guided by the relevant legislative acts of Ukraine and its charter.</target>
+            </trans-unit>
+            <trans-unit id="strategies_header">
+                <source>strategies_header</source>
+                <target>Our strategies</target>
+            </trans-unit>
+            <trans-unit id="row.strategies_full">
+                <source>row.strategies_full</source>
+                <target>All our activities we build so that guided by the Constitution of Ukraine and laws of Ukraine "About Public Organizations" other acts of the current legislation and its regulations. Our first charter declares voluntariness, equality of its members, government, rule of law and transparency.</target>
+            </trans-unit>
+            <trans-unit id="row.news">
+                <source>row.news</source>
+                <target>News</target>
+            </trans-unit>
+            <trans-unit id="row.news_brief">
+                <source>row.news_brief</source>
+                <target>News conserning to the organization.</target>
+            </trans-unit>
+            <trans-unit id="news_header">
+                <source>news_header</source>
+                <target>The Progression news</target>
+            </trans-unit>
+            <trans-unit id="news_text_small">
+                <source>news_text_small</source>
+                <target>Latest news</target>
+            </trans-unit>
+            <trans-unit id="news.show_text_small">
+                <source>news.show_text_small</source>
+                <target>News detailed</target>
+            </trans-unit>
+            <trans-unit id="row.about">
+                <source>row.about</source>
+                <target>Our organization is engaged in socially useful, research, innovation and charitable activities aimed at promoting and developing cooperation between Ukraine and the urban public with European and other international corporations and individuals, non-governmental organizations in the fields of human and animal health, occupational safety, protection environment, agriculture and information communications.</target>
+            </trans-unit>
+            <trans-unit id="about_header">
+                <source>about_header</source>
+                <target>Organization contact information</target>
+            </trans-unit>
+            <trans-unit id="activity_header">
+                <source>activity_header</source>
+                <target>Aims and activities</target>
+            </trans-unit>
+            <trans-unit id="contact_form.flash_message">
+                <source>contact_form.flash_message</source>
+                <target>Your contact enquiry was successfully sent. Thank you!</target>
+            </trans-unit>
+            <trans-unit id="contact_form.captcha_flash_message">
+                <source>contact_form.captcha_flash_message</source>
+                <target>Captcha Require!</target>
+            </trans-unit>
+            <trans-unit id="contact_form.name">
+                <source>contact_form.name</source>
+                <target>Your name</target>
+            </trans-unit>
+            <trans-unit id="contact_form.subject">
+                <source>contact_form.subject</source>
+                <target>Subject</target>
+            </trans-unit>
+            <trans-unit id="contact_form.email">
+                <source>contact_form.email</source>
+                <target>Your email address</target>
+            </trans-unit>
+            <trans-unit id="contact_form.message">
+                <source>contact_form.message</source>
+                <target>Your message here</target>
+            </trans-unit>
+            <trans-unit id="contact_submit">
+                <source>contact_submit</source>
+                <target>Submit</target>
+            </trans-unit>
+            <trans-unit id="contact_cancel">
+                <source>contact_cancel</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="contact.legend">
+                <source>contact.legend</source>
+                <target>Use a form below to contact with us</target>
+            </trans-unit>
+            <trans-unit id="contact.info">
+                <source>contact.info</source>
+                <target>INFORMATION ABOUT OFFICES AND REPRESENTATIVE OFFICES</target>
+            </trans-unit>
+            <trans-unit id="contact.info_office">
+                <source>contact.info_office</source>
+                <target>Main office</target>
+            </trans-unit>
+            <trans-unit id="contact.info_city">
+                <source>contact.info_city</source>
+                <target>61093, Kharkiv,</target>
+            </trans-unit>
+            <trans-unit id="contact.info_street">
+                <source>contact.info_street</source>
+                <target>Ryleeva street, 60</target>
+            </trans-unit>
+            <trans-unit id="about.head">
+                <source>about.head</source>
+                <target>TOP MANAGEMENT / CONTACT INFO</target>
+            </trans-unit>
+            <trans-unit id="about.boardM">
+                <source>about.boardM</source>
+                <target>Igor Tereshchenko</target>
+            </trans-unit>
+            <trans-unit id="about.boardMI">
+                <source>about.boardMI</source>
+                <target>Board member</target>
+            </trans-unit>
+            <trans-unit id="about.authorizedR">
+                <source>about.authorizedR</source>
+                <target>Igor Rechkiman</target>
+            </trans-unit>
+            <trans-unit id="about.authorizedRI">
+                <source>about.authorizedRI</source>
+                <target>Organization's authorized representative in EU</target>
+            </trans-unit>
+            <trans-unit id="about.contactP">
+                <source>about.contactP</source>
+                <target>Svitlana Sanzherevskaya</target>
+            </trans-unit>
+            <trans-unit id="about.contactPS">
+                <source>about.contactPS</source>
+                <target>The contact person</target>
+            </trans-unit>
+            <trans-unit id="about.head_short1">
+                <source>about.head_short1</source>
+                <target>TOP MANAGEMENT</target>
+            </trans-unit>
+            <trans-unit id="about.head_short2">
+                <source>about.head_short2</source>
+                <target>CONTACT INFO</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

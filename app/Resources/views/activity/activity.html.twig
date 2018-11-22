@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Activities{% endblock %}
+{% block header %}
+    {{ parent() }}
+    <div class="blog-header">
+        <div class="container">
+            <h1 class="blog-title">{{ 'activity_header'|trans }}</h1>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    {% for activity in activities %}
+        <p>{{ activity.content }}</p>
+    {% else %}<div>{{ 'activity.requested_info_not_found' }}</div>
+    {% endfor %}
+{% endblock %}

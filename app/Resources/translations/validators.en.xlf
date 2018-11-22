@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="contact_form.name_error">
+                <source>contact_form.name_error</source>
+                <target>Please provide your name</target>
+            </trans-unit>
+            <trans-unit id="contact_form.subject_error">
+                <source>contact_form.subject_error</source>
+                <target>Please give a Subject</target>
+            </trans-unit>
+            <trans-unit id="contact_form.email_error">
+                <source>contact_form.email_error</source>
+                <target>Please provide a valid email</target>
+            </trans-unit>
+           <trans-unit id="contact_form.email_val.error">
+                <source>contact_form.email_val.error</source>
+                <target>Your email doesn't seems to be valid</target>
+           </trans-unit>
+            <trans-unit id="contact_form.message_error">
+                <source>contact_form.message_error</source>
+                <target>Please provide a message here</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
